@@ -1,0 +1,57 @@
+.newCategory {
+    flex: 4;
+}
+
+.addCategoryForm {
+    margin-top: 10px;
+}
+
+.addCategoryItem {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.addCategoryItemDescName {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #ccc;
+    margin-bottom: 10px;
+}
+
+.addCategoryItemDesc {
+    width: 250px;
+    height: 110px;
+    line-height: 107px;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #ccc;
+    margin-bottom: 10px;
+}
+
+.addCategoryItem>label {
+    color: gray;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.addCategoryItem>input {
+    padding: 10px;
+}
+
+.addCategoryItem>select {
+    padding: 10px;
+}
+
+.addCategoryButton {
+    margin-top: 10px;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ec8dce;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}

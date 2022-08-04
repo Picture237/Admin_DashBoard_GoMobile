@@ -1,0 +1,49 @@
+.categorielist {
+    flex: 4;
+}
+
+.categorieListTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.categorieListAddButton {
+    width: 120px;
+    border: none;
+    margin-right: 15px;
+    padding: 5px;
+    background-color: #ec8dce;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+
+.categoriesnamecategorie {
+    display: flex;
+    align-items: center
+}
+
+.categorieimage {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.categorieListEdit {
+    border: none;
+    border-radius: 10px;
+    background-color: #d9a6d1;
+    color: #fff;
+    padding: 5px 10px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.categorieListDelete {
+    color: rgb(243, 5, 5);
+    cursor: pointer;
+}

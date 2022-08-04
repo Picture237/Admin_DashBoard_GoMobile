@@ -1,0 +1,49 @@
+.productlist {
+    flex: 4;
+}
+
+.productListTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.productListAddButton {
+    width: 100px;
+    border: none;
+    margin-right: 15px;
+    padding: 5px;
+    background-color: #ec8dce;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+
+.productsnameproduct {
+    display: flex;
+    align-items: center
+}
+
+.productimage {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.productListEdit {
+    border: none;
+    border-radius: 10px;
+    background-color: #d9a6d1;
+    color: #fff;
+    padding: 5px 10px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.productListDelete {
+    color: rgb(243, 5, 5);
+    cursor: pointer;
+}
